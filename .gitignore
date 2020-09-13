@@ -1,5 +1,43 @@
-.gradle/*
-.idea/*
-.build/*
+# Compiled class file
 *.class
-build/*
+*.bin
+*.lock
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+**/.idea/
+
+# Maven
+target/
+
+# Gradle
+build
+.gradle
+**/.gradle/
+
+# Log file
+*.log
+log/
+
+# out
+**/out/
+
+# Mac
+.DS_Store
+
+# others
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.pid
+*.orig
+temp/
