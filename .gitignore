@@ -19,7 +19,7 @@ target/
 
 # Gradle
 build
-.gradle
+.gradle/
 **/.gradle/
 
 # Log file
@@ -33,7 +33,6 @@ log/
 .DS_Store
 
 # others
-*.jar
 *.war
 *.zip
 *.tar
@@ -41,3 +40,4 @@ log/
 *.pid
 *.orig
 temp/
+
