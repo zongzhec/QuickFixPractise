@@ -1,7 +1,6 @@
-package foo.zongzhe.quickfix.accepter;
+package foo.zongzhe.quickfix.acceptor;
 
 import quickfix.*;
-import quickfix.field.ClOrdID;
 import quickfix.field.ExecID;
 import quickfix.field.Symbol;
 import quickfix.fix44.ExecutionReport;
@@ -11,7 +10,7 @@ import quickfix.fix44.NewOrderSingle;
 
 import java.util.List;
 
-public class FixAccepterApplication extends MessageCracker implements Application {
+public class FixAcceptorApplication extends MessageCracker implements Application {
 
     /// 以下是Application的固定七件套
     @Override
