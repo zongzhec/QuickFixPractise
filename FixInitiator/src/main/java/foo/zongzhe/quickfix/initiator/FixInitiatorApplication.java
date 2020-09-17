@@ -39,7 +39,7 @@ public class FixInitiatorApplication extends MessageCracker implements Applicati
 
     @Override
     public void toApp(Message message, SessionID sessionId) throws DoNotSend {
-        System.out.println("toApp is called");
+        System.out.println("toApp is called: " + message);
     }
 
     @Override

@@ -45,7 +45,8 @@ public class FixAcceptorApplication extends MessageCracker implements Applicatio
 
     @Override
     public void fromApp(Message message, SessionID sessionId) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, UnsupportedMessageType {
-        System.out.println("fromApp is called");
+        System.out.println("fromApp is called: " + message);
+        crack(message, sessionId);
     }
 
     // 以下是你可以自定义的消息接收器，来自MessageCracker

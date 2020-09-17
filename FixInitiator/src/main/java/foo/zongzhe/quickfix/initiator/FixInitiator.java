@@ -52,7 +52,7 @@ public class FixInitiator {
         fixInitiator.startServer();
 
         // 启动一个Session，记得参考你的quickfix.properties设定
-        SessionID sessionID = new SessionID("FIX.4.4", "QUICKFIX_INITIATOR1", "QUICKFIX_ACCEPTER");
+        SessionID sessionID = new SessionID("FIX.4.4", "QUICKFIX_INITIATOR1", "QUICKFIX_ACCEPTOR");
 
         // 开始发点消息
         try {

@@ -41,3 +41,5 @@ log/
 *.orig
 temp/
 
+*.body
+*/fileStore/*
