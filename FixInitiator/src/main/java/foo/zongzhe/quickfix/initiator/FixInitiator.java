@@ -1,6 +1,11 @@
 package foo.zongzhe.quickfix.initiator;
 
 import quickfix.*;
+import quickfix.field.*;
+import quickfix.fix44.MarketDataRequest;
+import quickfix.fix44.NewOrderSingle;
+
+import java.time.LocalDateTime;
 
 public class FixInitiator {
 
